@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6E52D319AC5481005DBD17 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E52D219AC5481005DBD17 /* Note.m */; };
+		8335C44B191136760012F9BD /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8335C44A191136760012F9BD /* DatabaseHelper.m */; };
+		8373F78919154364003343EF /* Idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77719154364003343EF /* Idle.png */; };
+		8373F78A19154364003343EF /* Idle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77819154364003343EF /* Idle@2x.png */; };
+		8373F78B19154364003343EF /* IdleSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77919154364003343EF /* IdleSelected.png */; };
+		8373F78C19154364003343EF /* IdleSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77A19154364003343EF /* IdleSelected@2x.png */; };
+		8373F78D19154364003343EF /* Running.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77B19154364003343EF /* Running.png */; };
+		8373F78E19154364003343EF /* Running@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77C19154364003343EF /* Running@2x.png */; };
+		8373F78F19154364003343EF /* RunningSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77D19154364003343EF /* RunningSelected.png */; };
+		8373F79019154364003343EF /* RunningSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8373F77E19154364003343EF /* RunningSelected@2x.png */; };
+		83A4D9FB1910AA40002A7325 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83A4D9F91910AA40002A7325 /* Database.xcdatamodeld */; };
+		83A4D9FC1910AB67002A7325 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D927A6AA14264D8700277174 /* CoreData.framework */; };
+		83A4DA001910ABC0002A7325 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4D9FF1910ABC0002A7325 /* Cocoa.framework */; };
+		83A4DA031910B2E7002A7325 /* Timesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A4DA021910B2E6002A7325 /* Timesheet.m */; };
+		83A4DA051910BCC4002A7325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4DA041910BCC4002A7325 /* Foundation.framework */; };
+		83B81A62191215FB0064CBB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B81A61191215FB0064CBB8 /* SystemConfiguration.framework */; };
+		83BB26C51916D58F0092DE02 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB26C41916D58F0092DE02 /* NetworkHelper.m */; };
+		83BB26C91916DE600092DE02 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83BB26C81916DE600092DE02 /* icon.icns */; };
+		83BDCA2C190CA755005A422E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D927A6BB14264D8700277174 /* MainMenu.xib */; };
+		83BDCA2D190CA75A005A422E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D927A6AF14264D8700277174 /* InfoPlist.strings */; };
+		D927A6B314264D8700277174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D927A6B214264D8700277174 /* main.m */; };
+		D927A6BA14264D8700277174 /* TimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D927A6B914264D8700277174 /* TimerAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B6E52D119AC5481005DBD17 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		5B6E52D219AC5481005DBD17 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		8335C449191136760012F9BD /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		8335C44A191136760012F9BD /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		8373F77719154364003343EF /* Idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Idle.png; path = Icons/Idle.png; sourceTree = "<group>"; };
+		8373F77819154364003343EF /* Idle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Idle@2x.png"; path = "Icons/Idle@2x.png"; sourceTree = "<group>"; };
+		8373F77919154364003343EF /* IdleSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IdleSelected.png; path = Icons/IdleSelected.png; sourceTree = "<group>"; };
+		8373F77A19154364003343EF /* IdleSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IdleSelected@2x.png"; path = "Icons/IdleSelected@2x.png"; sourceTree = "<group>"; };
+		8373F77B19154364003343EF /* Running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Running.png; path = Icons/Running.png; sourceTree = "<group>"; };
+		8373F77C19154364003343EF /* Running@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Running@2x.png"; path = "Icons/Running@2x.png"; sourceTree = "<group>"; };
+		8373F77D19154364003343EF /* RunningSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RunningSelected.png; path = Icons/RunningSelected.png; sourceTree = "<group>"; };
+		8373F77E19154364003343EF /* RunningSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RunningSelected@2x.png"; path = "Icons/RunningSelected@2x.png"; sourceTree = "<group>"; };
+		83A4D9FA1910AA40002A7325 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		83A4D9FF1910ABC0002A7325 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83A4DA011910B2E6002A7325 /* Timesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timesheet.h; sourceTree = "<group>"; };
+		83A4DA021910B2E6002A7325 /* Timesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timesheet.m; sourceTree = "<group>"; };
+		83A4DA041910BCC4002A7325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83B81A61191215FB0064CBB8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		83BB26C31916D58F0092DE02 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		83BB26C41916D58F0092DE02 /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		83BB26C81916DE600092DE02 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Icons/icon.icns; sourceTree = "<group>"; };
+		D927A6A214264D8700277174 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D927A6AA14264D8700277174 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D927A6AE14264D8700277174 /* Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer-Info.plist"; sourceTree = "<group>"; };
+		D927A6B014264D8700277174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D927A6B214264D8700277174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D927A6B414264D8700277174 /* Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
+		D927A6B814264D8700277174 /* TimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAppDelegate.h; sourceTree = "<group>"; };
+		D927A6B914264D8700277174 /* TimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAppDelegate.m; sourceTree = "<group>"; };
+		D927A6BC14264D8700277174 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D927A69F14264D8700277174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B81A62191215FB0064CBB8 /* SystemConfiguration.framework in Frameworks */,
+				83A4DA051910BCC4002A7325 /* Foundation.framework in Frameworks */,
+				83A4DA001910ABC0002A7325 /* Cocoa.framework in Frameworks */,
+				83A4D9FC1910AB67002A7325 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A4D9F81910AA03002A7325 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5B6E52D119AC5481005DBD17 /* Note.h */,
+				5B6E52D219AC5481005DBD17 /* Note.m */,
+				83A4DA011910B2E6002A7325 /* Timesheet.h */,
+				83A4DA021910B2E6002A7325 /* Timesheet.m */,
+				8335C449191136760012F9BD /* DatabaseHelper.h */,
+				8335C44A191136760012F9BD /* DatabaseHelper.m */,
+				83A4D9F91910AA40002A7325 /* Database.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		83F0580C190C25E50083D21C /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				83F0580D190C25ED0083D21C /* Icons */,
+				83F0580E190C25FA0083D21C /* XIBs */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		83F0580D190C25ED0083D21C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				83BB26C81916DE600092DE02 /* icon.icns */,
+				8373F77719154364003343EF /* Idle.png */,
+				8373F77819154364003343EF /* Idle@2x.png */,
+				8373F77919154364003343EF /* IdleSelected.png */,
+				8373F77A19154364003343EF /* IdleSelected@2x.png */,
+				8373F77B19154364003343EF /* Running.png */,
+				8373F77C19154364003343EF /* Running@2x.png */,
+				8373F77D19154364003343EF /* RunningSelected.png */,
+				8373F77E19154364003343EF /* RunningSelected@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		83F0580E190C25FA0083D21C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6BB14264D8700277174 /* MainMenu.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		D927A69714264D8700277174 = {
+			isa = PBXGroup;
+			children = (
+				D927A6AC14264D8700277174 /* Code */,
+				83A4D9F81910AA03002A7325 /* Database */,
+				83F0580C190C25E50083D21C /* User Interface */,
+				D927A6AD14264D8700277174 /* Supporting Files */,
+				D927A6A514264D8700277174 /* Frameworks */,
+				D927A6A314264D8700277174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D927A6A314264D8700277174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6A214264D8700277174 /* Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D927A6A514264D8700277174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B81A61191215FB0064CBB8 /* SystemConfiguration.framework */,
+				83A4DA041910BCC4002A7325 /* Foundation.framework */,
+				83A4D9FF1910ABC0002A7325 /* Cocoa.framework */,
+				D927A6AA14264D8700277174 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D927A6AC14264D8700277174 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6B814264D8700277174 /* TimerAppDelegate.h */,
+				D927A6B914264D8700277174 /* TimerAppDelegate.m */,
+				83BB26C31916D58F0092DE02 /* NetworkHelper.h */,
+				83BB26C41916D58F0092DE02 /* NetworkHelper.m */,
+			);
+			name = Code;
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		D927A6AD14264D8700277174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D927A6AE14264D8700277174 /* Timer-Info.plist */,
+				D927A6AF14264D8700277174 /* InfoPlist.strings */,
+				D927A6B214264D8700277174 /* main.m */,
+				D927A6B414264D8700277174 /* Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D927A6A114264D8700277174 /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D927A6D514264D8700277174 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				D927A69E14264D8700277174 /* Sources */,
+				D927A69F14264D8700277174 /* Frameworks */,
+				D927A6A014264D8700277174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = D927A6A214264D8700277174 /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D927A69914264D8700277174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Privat;
+			};
+			buildConfigurationList = D927A69C14264D8700277174 /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D927A69714264D8700277174;
+			productRefGroup = D927A6A314264D8700277174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D927A6A114264D8700277174 /* Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D927A6A014264D8700277174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8373F78919154364003343EF /* Idle.png in Resources */,
+				8373F78B19154364003343EF /* IdleSelected.png in Resources */,
+				8373F78A19154364003343EF /* Idle@2x.png in Resources */,
+				83BDCA2D190CA75A005A422E /* InfoPlist.strings in Resources */,
+				83BB26C91916DE600092DE02 /* icon.icns in Resources */,
+				8373F78C19154364003343EF /* IdleSelected@2x.png in Resources */,
+				8373F78D19154364003343EF /* Running.png in Resources */,
+				8373F78E19154364003343EF /* Running@2x.png in Resources */,
+				8373F78F19154364003343EF /* RunningSelected.png in Resources */,
+				8373F79019154364003343EF /* RunningSelected@2x.png in Resources */,
+				83BDCA2C190CA755005A422E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D927A69E14264D8700277174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D927A6B314264D8700277174 /* main.m in Sources */,
+				8335C44B191136760012F9BD /* DatabaseHelper.m in Sources */,
+				83BB26C51916D58F0092DE02 /* NetworkHelper.m in Sources */,
+				83A4DA031910B2E7002A7325 /* Timesheet.m in Sources */,
+				83A4D9FB1910AA40002A7325 /* Database.xcdatamodeld in Sources */,
+				5B6E52D319AC5481005DBD17 /* Note.m in Sources */,
+				D927A6BA14264D8700277174 /* TimerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D927A6AF14264D8700277174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D927A6B014264D8700277174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D927A6BB14264D8700277174 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D927A6BC14264D8700277174 /* en */,
+			);
+			name = MainMenu.xib;
+			path = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D927A6D314264D8700277174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D927A6D414264D8700277174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D927A6D614264D8700277174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				PRODUCT_NAME = Timer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D927A6D714264D8700277174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				INFOPLIST_FILE = "Timer/Timer-Info.plist";
+				PRODUCT_NAME = Timer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D927A69C14264D8700277174 /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D927A6D314264D8700277174 /* Debug */,
+				D927A6D414264D8700277174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D927A6D514264D8700277174 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D927A6D614264D8700277174 /* Debug */,
+				D927A6D714264D8700277174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83A4D9F91910AA40002A7325 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83A4D9FA1910AA40002A7325 /* Database.xcdatamodel */,
+			);
+			currentVersion = 83A4D9FA1910AA40002A7325 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D927A69914264D8700277174 /* Project object */;
+}
